@@ -12,17 +12,10 @@ const App = () => {
     <FluentProvider theme={webLightTheme}>
       <Button
         onClick={() => {
-          setCol(col - 1);
-        }}
-      >
-        Change column - 1
-      </Button>
-      <Button
-        onClick={() => {
           setCol(col + 1);
         }}
       >
-        Change column + 1
+        Change column - 1
       </Button>
       <Example col={col} />
     </FluentProvider>
